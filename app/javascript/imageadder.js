@@ -1,3 +1,4 @@
+/*
 const image = [
 "/assets/mumokkino1.jpg", "/assets/auto1.png", "/assets/mumokkino2.jpg", "/assets/auto3.png",  "/assets/mumokkino4.jpg",  "/assets/auto2.png", "/assets/mumokkino3.jpg" ]
 
@@ -41,3 +42,4 @@ document.addEventListener("touched", function (event) {
 	event.preventDefault()
 	placeImage(event.pageX, event.pageY)
 })
+*/
