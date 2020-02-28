@@ -1,0 +1,424 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* menu */
+
+.sidenav {
+
+  width: 0;
+  height: 100%;
+  vertical-align: top;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 4rem;
+}
+
+.sidenav a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.accordion {
+  background-color:white;
+  display: flex;
+  cursor: pointer;
+  font-style: helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  z-index: 999;
+  position: relative;
+  left:0;
+  top:0px;
+}
+
+.active, .accordion:hover {
+  background-color: #fff;
+}
+
+.panel {
+  font-style: helvetica, sans-serif;
+  padding: 0 .5rem;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: helvetica, sans-serif;
+}
+
+
+/* beautiful */
+.monkeys {
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+iframe {
+border: 1rem solid green;
+display: block;
+margin-left: 25rem;
+}
+
+.slideshow {
+margin-top: .5rem;
+}
+
+/* cashdesks */
+.cashtext {
+  font-family: helvetica, sans serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+/* cars */
+.titles {
+	padding-top: 100px;
+  text-align: center;
+  font-family: helvetica;
+  font-style: italic;
+  font-size:12em;
+  letter-spacing: 5px;
+	-webkit-animation:colorchange 20s infinite alternate;
+
+}
+    @-webkit-keyframes colorchange {
+      0% {
+
+        color: red;
+      }
+
+      10% {
+
+        color: green;
+      }
+
+      20% {
+
+        color: blue;
+      }
+
+      30% {
+
+        color: red;
+      }
+
+      40% {
+
+        color: green;
+      }
+
+      50% {
+
+        color: blue;
+      }
+
+      60% {
+
+        color: red;
+      }
+
+      70% {
+
+        color: green;
+      }
+      80% {
+
+        color: blue;
+      }
+
+      90% {
+
+        color: red;
+      }
+
+      100% {
+
+        color: green;
+      }
+
+    }
+
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }}
+
+
+/* index */
+@-webkit-keyframes argh-my-eyes {
+   0%   { background-color: red; }
+   11% { background-color: red; }
+   22% { background-color: #00ff00; }
+   44% { background-color: #00ff00; }
+   55% { background-color: blue; }
+   66% { background-color: blue; }
+   77% { background-color: white; }
+   88% { background-color: white; }
+   99% { background-color: red; }
+   100% {background-color: red; }
+ }
+ @-moz-keyframes argh-my-eyes {
+   0%   { background-color: red; }
+   11% { background-color: red; }
+   22% { background-color: #00ff00; }
+   44% { background-color: #00ff00; }
+   55% { background-color: blue; }
+   66% { background-color: blue; }
+   77% { background-color: white; }
+   88% { background-color: white; }
+   99% { background-color: red; }
+   100% {background-color: red; }
+ }
+ @keyframes argh-my-eyes {
+   0%   { background-color: red; }
+   11% { background-color: red; }
+   22% { background-color: #00ff00; }
+   44% { background-color: #00ff00; }
+   55% { background-color: blue; }
+   66% { background-color: blue; }
+   77% { background-color: white; }
+   88% { background-color: white; }
+   99% { background-color: red; }
+   100% {background-color: red; }
+ }
+
+ .wrapper {
+   -webkit-animation: argh-my-eyes 6s infinite;
+   -moz-animation:    argh-my-eyes 6s infinite;
+   animation:         argh-my-eyes 6s infinite;
+ }
+
+img.house {
+	top: 0;
+	left: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+
+}
+
+img.tent {
+	top: 0;
+	right: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+
+}
+
+img.outside {
+	bottom: 0;
+	left: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+
+}
+
+img.municipal {
+	bottom: 0;
+	right: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+/* knottinghill */
+img.knots {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*body {
+background-image: url("landscape.png");
+background-size: cover;
+}
+*/
+p.dialogue {
+font-family: helvetica, sans-serif;
+font-size: 6rem;
+line-height: 20rem;
+margin-top: 5rem;
+text-align: center;
+}
+
+/* two hands -- empty */
+
+
+.writtenbytwohands {
+  font-family: helvetica;
+  color: black;
+  size: 24px;
+  padding-top: 1rem;
+}
+
+
+.container_letters {
+    width: 1000px;
+    position: absolute;
+    padding-top: 300px;
+  }
+
+path {
+
+  fill: none;
+  stroke: #000000;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.path-1 {
+  position: relative;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 8s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.path-2 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 8s linear forwards 2.8s;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .path-3 {
+    position: relative;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 8s linear forwards 6s;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+
+  .path-4 {
+    position: relative;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 8s linear forwards 8s;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+
+  .path-5 {
+    position: relative;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 8s linear forwards 10s;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+/* draussen */
+.draussen {
+  position: fixed;
+  margin-top: 20rem;
+  margin-left: 10rem;
+}
+
+
+.stripes {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg, #000 10%, transparent 25%, transparent 50%, #000 10%, #000 10%, transparent 75%, #fff);
+}
+
+/* tent */
+
+.parallax {
+    background-color: white;
+    background-image: url(/Users/magda/projects/mb/app/assets/images/("magdabarthofer.png"));
+    height: 90%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*following just for demo purposes to add height and top padding*/
+    height:300vh;
+    padding-top:100vh;
+}
+.parallax-curtain{
+	background:rgba(255,255,255,0);
+	font-size: 40px;
+	font-family: helvetica, cursive;
+}
+
+.handwriting {
+  width: 70%;
+  padding-left: 20rem;
+}
