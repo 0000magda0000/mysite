@@ -9,7 +9,8 @@ Rails.application.routes.draw do
   get 'home/base', to: 'home#base'
   get 'home/cashdesks', to: 'home#cashdesks'
   get 'home/knottinghill', to: 'home#knottinghill'
-
+  get 'home/wyndlzzrd', to: 'home#wyndlzzrd'
+  get 'home/fences', to: 'home#fences'
 
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
