@@ -1,24 +1,9 @@
-# README
+# mysite
+I built this personal website in order to get used to the rails framework <br>
+- navigating with hamburger menu
+- Javascript image gallery
+- css .svg path animation
+- ...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See for yourself:
+https://obscure-gorge-96408.herokuapp.com/
