@@ -10,7 +10,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		const height = window.innerHeight
 		const width = window.innerWidth
 
-
 		const house = letterMap.querySelector(".house")
 		house.style.width = event.pageX+"px"
 		house.style.height = event.pageY+"px"
@@ -26,5 +25,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		const municipal = letterMap.querySelector(".municipal")
 	  municipal.style.width = width - event.pageX  + "px"
 		municipal.style.height = height - event.pageY + "px"
+
 	})
 });
