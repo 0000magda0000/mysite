@@ -9,7 +9,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-daterangepicker": "^3.0.5",
     "bootstrap-datetimepicker-4.17.37": "^4.17.37",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
